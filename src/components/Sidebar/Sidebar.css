@@ -1,0 +1,36 @@
+.sidebar {
+    background-color: #1e293b;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .sidebar img {
+    margin-bottom: 12px;
+    width: 200px;
+  }
+
+  .sidebar nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
+  }
+  
+  .sidebar .menu-items {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar .menu-items span{
+    margin-left: 20px;
+    
+  }
+  
+.menu-items:hover{
+    .icons{
+        color: #0F8BFD;
+    }
+}
